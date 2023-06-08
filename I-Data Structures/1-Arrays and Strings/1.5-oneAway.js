@@ -7,5 +7,8 @@ pales, pale -> true
 pale, bale -> true
 pale, bake -> false
 
-Hints: #23, #97, #130
+Hints: 
+#23: Start with the easy thing. Can you check each of the conditions separately?
+#97: What is the relationship between the "insert character" option and the "remove character" option? Do these need to be two separate checks?
+#130: Can you do all three checks in a single pass?
 */
