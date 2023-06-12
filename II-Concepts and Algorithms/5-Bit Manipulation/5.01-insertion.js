@@ -5,5 +5,8 @@ EXAMPLE
 Input:  N = 10000000000, M = 10011, i =2, j = 6
 Output: N = 10001001100
 
-Hints: #137, #169, #215
+Hints:
+#137: Break this into parts. Focus first on clearing the appropriate bits.
+#169: To clear the bits, create a "bit mask" that looks like a series of 1s, then 0s, then 1s.
+#215: It's easy to create a bit mask of 0s at the beginning or end. But how do you create a bit mask with a bunch of zeroes in the middle? Do it the easy way: Create a bit mask for the left side and then another one for the right side. Then you can merge those.
 */

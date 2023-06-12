@@ -5,5 +5,7 @@ EXAMPLE
 Input:  29 (or: 11101), 15 (or: 01111)
 Output: 2
 
-Hints: #336, #369
+Hints:
+#336: How would you figure out how many bits are different between two numbers?
+#369: Think about what an XOR indicates. If you do a XOR b, where does the result have 1s? Where does it have 0s?
 */
