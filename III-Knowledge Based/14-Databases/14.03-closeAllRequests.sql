@@ -29,5 +29,6 @@ Tenants
 |TenantID    | int         |
 |TenantName  | varchar(100)|
 
-Hints: #431
+Hints:
+#431: First try to get a list of the IDs (just the IDs) of all the relevant apartments.
 */

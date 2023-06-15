@@ -4,5 +4,8 @@ Given an input file with four billion non-negative integers, provide an algorith
 FOLLOW UP
 What if you have only 10 MB of memory? Assume that all the values are distinct and we now have no more than one billion non-negative integers. 
 
-Hints: #235, #254, #281
+Hints:
+#235: Would a bit vector help?
+#254: To do it with less memory, can you try multiple passes?
+#281: Try using one pass to get it down to a range of values, and then a second pass to find a specific value.
 */

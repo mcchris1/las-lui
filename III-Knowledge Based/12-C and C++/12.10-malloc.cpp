@@ -5,5 +5,8 @@ EXAMPLE
 align_malloc(1000,128) will return a memory address that is a multiple of 128 and that points to memory of size 1000 bytes.
 aligned_free() will free memory allocated by align_malloc.
 
-Hints: #413, #432, #440
+Hints:
+#413: Typically, malloc will just give us an arbitrary block of memory. If we can't override this behavior, can we work with it to do what we need?
+#432: Imagine we have a sequential set of integers (3, 4, 5, ...). How big does this set need to be to ensure that one of the numbers is divisible by 16?
+#440: How will we free the memory?
 */

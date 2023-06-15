@@ -29,5 +29,6 @@ Tenants
 |TenantID    | int         |
 |TenantName  | varchar(100)|
 
-Hints: #411
+Hints:
+#411: It might be helpful to break the approach into two pieces. The first piece is to get each building ID and the number of open requests. Then, we can get the building names.
 */

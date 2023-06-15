@@ -5,5 +5,6 @@ EXAMPLE
 Input:  ball, {"at", "", "", "", "ball", "", "", "car", "", "", "dad", "", ""}
 Output: 4
 
-Hints: #256
+Hints:
+#256: Try modifying binary search to handle this.
 */

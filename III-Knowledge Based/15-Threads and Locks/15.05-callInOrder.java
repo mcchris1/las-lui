@@ -9,5 +9,8 @@ public class Foo {
 }
 The same instance of Foo will be passed to three different threads. ThreadA will call first, threadB will call second, and threadC will call third. Design a mechanism to ensure that first is called before second and second is called before third. 
 
-Hints: #417, #433, #446
+Hints:
+#417: How can we ensure that first() has terminated before calling second()?
+#433: Why would using boolean flags to do this be a bad idea?
+#446: Would semaphores be useful here?
  */

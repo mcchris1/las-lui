@@ -5,5 +5,7 @@ EXAMPLE
 Input:  find 5 in (15, 16, 19, 20, 25, 1, 3, 4, 5, 7, 10, 14)
 Output: 8 (the index of 5 in the array)
 
-Hints: #298, #310
+Hints:
+#298: Can you modify binary search for this purpose?
+#310: What is the runtime of your algorithm? What will happen if the array has duplicates?
 */

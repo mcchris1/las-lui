@@ -29,5 +29,6 @@ Tenants
 |TenantID    | int         |
 |TenantName  | varchar(100)|
 
-Hints: #408
+Hints:
+#408: A GROUP BY clause might be useful.
 */

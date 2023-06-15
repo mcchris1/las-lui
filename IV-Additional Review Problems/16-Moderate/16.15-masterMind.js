@@ -9,5 +9,7 @@ When you guess the correct color for the correct slot, you get a "hit." If you g
 
 For example, if the actual solution is RGBY and you guess GGRR, you have one hit and one pseudo-hit. Write a method that, given a guess and a solution, returns the number of hits and pseudo-hits.
 
-Hints: #639, #730
+Hints:
+#639: Try first creating an array with the frequency that each item occurs.
+#730: For ease and clarity in implementation, you might want to use other methods and classes.
 */
